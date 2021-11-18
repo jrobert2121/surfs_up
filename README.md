@@ -14,9 +14,9 @@ Data Sources: hawaii.sqlite database,
 ## Results - bulleted list addressing 3 key differences in weather between June and Dec
 Utilizing SQLAlchemy, we are able to extract temperature data for June and December from the Measurements table.  Then after converting the extracted data to a list, we can easily create dataframes for each of the months' data and take a look at the statistics.
 
-June Temperatures                                       December Temperatures
+***June Temperatures***                                         ***December Temperatures***
 
-![June_temp_stats](Resources/June_temp_stats.png)       ![Dec_temp_stats](Resources/Dec_temp_stats.png)
+![June_temp_stats](Resources/June_temp_stats.png)               ![Dec_temp_stats](Resources/Dec_temp_stats.png)
 
 Some key differences between the two months include:
  - Average Temperature:  The average temperature for June is 75 degrees but December is slightly cooler with an average temperature of 71 degrees.
