@@ -15,11 +15,12 @@ Data Sources: hawaii.sqlite database,
 Utilizing SQLAlchemy, we are able to extract temperature data for June and December from the Measurements table.  Then after converting the extracted data to a list, we can easily create dataframes for each of the months' data and take a look at the statistics.
 
 June Temperatures                                       December Temperatures
+
 ![June_temp_stats](Resources/June_temp_stats.png)       ![Dec_temp_stats](Resources/Dec_temp_stats.png)
 
 Some key differences between the two months include:
  - Average Temperature:  The average temperature for June is 75 degrees but December is slightly cooler with an average temperature of 71 degrees.
  - Maximum Temperature:  The maximum temperatures for both months are very similiar.  June's max temperature is 85 degrees and December is 83 degrees.
  - Minimum Temperature:  The greatest difference between the two months is in this category.  June's minimum temperature is 64 degrees but December's is down to 56 degrees, which may not be the most conducive for ice cream or surfing.
- 
+
 ## Summary - high level summary of the results and provide 2 more additional queries to perform to gather more weather data for June and Dec
